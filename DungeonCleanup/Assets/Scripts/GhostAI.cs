@@ -14,11 +14,15 @@ public class GhostAI : MonoBehaviour
 
     void Update()
     {
-        if (!TutorialManager.tutorialFinished)
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Level1")
         {
-            agent.isStopped = true;
-            return;
+            if (!TutorialManager.tutorialFinished)
+            {
+                agent.isStopped = true;
+                return;
+            }
         }
+
 
         agent.isStopped = false;
 
