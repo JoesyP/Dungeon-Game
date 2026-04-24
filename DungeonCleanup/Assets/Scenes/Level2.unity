@@ -19433,7 +19433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: -140.5}
+  m_AnchoredPosition: {x: -318, y: -174.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919092657
@@ -22024,7 +22024,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: d50b87a495b4045b3899266d5e2129f7, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 54d33434632924113b75ef5ea9feeaf7, type: 2}
   m_BuildHeightMesh: 0
 --- !u!64 &2124758651
 MeshCollider:

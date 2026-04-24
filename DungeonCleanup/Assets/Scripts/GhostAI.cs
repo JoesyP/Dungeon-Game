@@ -10,6 +10,7 @@ public class GhostAI : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = DifficultyManager.ghostSpeed;
     }
 
     void Update()
